@@ -1,0 +1,11 @@
+<!--pages/category/childrenComps/left-bar/left-bar.wxml-->
+<view class="left-bar">
+  <block wx:for="{{titles}}" wx:key="index">
+    <view 
+      class="left-bar-item {{currentIndex === index ? 'active' : ''}}" 
+      bindtap="barItemClick"
+      data-index="{{index}}">
+      {{item.title}}
+    </view>
+  </block>
+</view>

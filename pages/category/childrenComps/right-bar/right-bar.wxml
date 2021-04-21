@@ -1,0 +1,9 @@
+<!--pages/category/childrenComps/right-bar/right-bar.wxml-->
+<view class="right-bar">
+    <block wx:for="{{subcategories}}" wx:key="index">
+      <view class="right-bar-item">
+        <image src="{{item.image}}" class="img"></image>
+        <view class="text">{{item.title}}</view>
+      </view>
+    </block>
+  </view>

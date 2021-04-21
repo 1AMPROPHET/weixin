@@ -1,0 +1,19 @@
+/* pages/category/childrenComps/right-bar/right-bar.wxss */
+.right-bar {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.right-bar-item {
+  width: 40%;
+  text-align: center;
+  margin-bottom: 20rpx;
+}
+.img {
+  width: 150rpx;
+  height: 150rpx;
+}
+.text {
+  font-size: 28rpx;
+  margin-bottom: 10rpx;
+}

@@ -1,2 +1,22 @@
 <!--pages/home/home.wxml-->
-<text>Hello World</text>
+<!-- 1.展示轮播图 -->
+<swiper list="{{banner}}" swiper="swiper" class="height"/>
+
+<!-- 2.推荐数据的展示 -->
+<recommend list="{{recommend}}"/>
+
+<!-- 3.本周流行 -->
+<popular/>
+
+<!-- 4.tab-control -->
+<tab-control titles="{{titles}}" bind:tabClick="tabClick" class="tab-control"/>
+
+<!-- 5.商品展示 -->
+<goods-frame 
+  goodsList="{{goods[currentType].list}}" 
+  bind:goodItemTap="goodItemTap"
+  iid="{{}}">
+</goods-frame>
+
+<!-- 6.返回顶部 -->
+<backtop class="backtop" wx:if="{{showBacktop}}"/>

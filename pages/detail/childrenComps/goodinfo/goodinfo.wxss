@@ -1,0 +1,72 @@
+/* pages/detail/childrenComps/goodinfo/goodinfo.wxss */
+.good-info {
+  margin: 20rpx 0;
+  border-bottom: 14rpx solid #eee;
+}
+.info {
+  margin: 0 20rpx;
+  font-size: 34rpx;
+  color: #777;
+  /* text-overflow: ellipsis; */
+  overflow: hidden;
+  /* white-space: nowrap; */
+}
+.price {
+  margin: 0 20rpx;
+  display: flex;
+}
+.new-price {
+  display: inline-block;
+  color: #ff5777;
+  font-size: 40rpx;
+}
+.old-price {
+  margin-top: 6rpx;
+  margin-left: 30rpx;
+  text-align: center;
+  display: inline-block;
+  color: #777;
+  text-decoration: line-through;
+  font-size: 30rpx;
+}
+.discount {
+  text-align: center;
+  height: 40rpx;
+  width: 80rpx;
+  font-size: 30rpx;
+  color: white;
+  margin-left: 20rpx;
+  background-color: #f55777;
+  border-radius: 20rpx;
+}
+.info-other {
+  margin: 30rpx 20rpx 0 20rpx;
+  padding-bottom: 20rpx;
+  display: flex;
+  color: #777;
+  font-size: 28rpx;
+  line-height: 32rpx;
+  justify-content: space-between;
+  border-bottom: 1px solid #ccc;
+}
+.info-service {
+  margin: 0 20rpx;
+  display: flex;
+  justify-content: space-between;
+  font-size: 24rpx;
+  color: #777;
+  flex-wrap: nowrap;
+  padding: 30rpx 0 40rpx 0;
+}
+.info-service-item {
+  text-align: center;
+  margin: 0 4rpx 0 4rpx;
+  line-height: 24rpx;
+}
+.icon {
+  width: 24rpx;
+  height: 24rpx;
+}
+.service-text {
+  flex-wrap: nowrap;
+}

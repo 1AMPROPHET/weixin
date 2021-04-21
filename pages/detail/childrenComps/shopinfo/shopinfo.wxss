@@ -1,0 +1,44 @@
+/* pages/detail/childrenComps/shopinfo/shopinfo.wxss */
+.logo-name {
+  text-align: center;
+  margin: 50rpx 20rpx 30rpx 20rpx;
+  display: flex;
+}
+.logo {
+  border: 1px solid #777;
+  border-radius: 100rpx;
+  width: 100rpx;
+  height: 100rpx;
+}
+.name {
+  font-size: 40rpx;
+  color: #333;
+  margin: 20rpx 0 0 30rpx;
+}
+.selling {
+  display: flex;
+  justify-content: space-between;
+}
+.left-area {
+  margin: 30rpx 20rpx;
+  text-align: center;
+  display: flex;
+  border-right: 1px solid #777;
+}
+.sell {
+  margin-left: 50rpx;
+}
+.good {
+  margin-left: 50rpx;
+  padding-right: 50rpx;
+}
+.sell-number {
+  font-size: 36rpx;
+}
+.good-number {
+  font-size: 36rpx;
+}
+.text {
+  font-size: 30rpx;
+  margin-top: 10rpx;
+}

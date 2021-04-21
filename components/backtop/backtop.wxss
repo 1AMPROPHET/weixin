@@ -1,0 +1,8 @@
+/* components/backtop/backtop.wxss */
+.img {
+  width: 80rpx;
+  height: 80rpx;
+  background-color: none;
+  background-color: #fff;
+  border-radius: 80rpx;
+}

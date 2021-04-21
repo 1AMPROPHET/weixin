@@ -1,0 +1,12 @@
+<!--pages/cart/childrenComps/bottom-bar/bottom-bar.wxml-->
+<view class="bottom-bar">
+  <view class="bar-left" bindtap="selectAll">
+    <image src="/assets/common/select.png" class="icon-select"></image>
+    <image src="/assets/common/selected.png" class="icon-selected" hidden="{{!isSelect}}"></image>
+    <text class="text">全选</text>
+  </view>
+  <view class="bar-mid">
+    <view class="totalPrice">总计: ￥{{totalPrice}}</view>
+  </view>
+  <view class="right-bar">去结算({{itemCount}})</view>
+</view>

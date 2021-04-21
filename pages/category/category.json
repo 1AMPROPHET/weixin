@@ -1,0 +1,8 @@
+{
+  "usingComponents": {
+    "left-bar": "./childrenComps/left-bar/left-bar",
+    "right-bar": "./childrenComps/right-bar/right-bar"
+  },
+  "navigationBarTitleText": "分类",
+  "disableScroll": true
+}

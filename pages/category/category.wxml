@@ -1,0 +1,10 @@
+<!--pages/category/category.wxml-->
+<view class="category">
+  <scroll-view class="left-bar-scroll" scroll-y="true" bounces="false" enhanced="true" showScrollbar="false">
+    <left-bar titles="{{categories}}" bind:categoryClick="switchCategory"></left-bar>
+  </scroll-view>
+
+  <scroll-view class="right-bar-scroll" scroll-y="true" bounces="false" enhanced="true" showScrollbar="false">
+    <right-bar subcategories="{{subcategories}}"></right-bar>
+  </scroll-view>
+</view>

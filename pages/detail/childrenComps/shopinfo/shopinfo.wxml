@@ -1,0 +1,19 @@
+<!--pages/detail/childrenComps/shopinfo/shopinfo.wxml-->
+<view class="shopinfo">
+  <view class="logo-name">
+    <image src="{{shopInformation.shopLogo}}" class="logo"></image>
+    <view class="name">{{shopInformation.name}}</view>
+  </view>
+  <view class="selling">
+    <view class="left-area">
+      <view class="sell">
+        <view class="sell-number">{{shopInformation.cSells}}</view>
+        <view class="text">总销量</view>
+      </view>
+      <view class="good">
+        <view class="good-number">{{shopInformation.cGoods}}</view>
+        <view class="text">全部宝贝</view>
+      </view>
+    </view>
+  </view>
+</view>

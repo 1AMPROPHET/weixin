@@ -1,0 +1,24 @@
+<!--pages/detail/childrenComps/goodinfo/goodinfo.wxml-->
+<view class="good-info">
+  <view class="info">
+    {{goodInformation.title}}
+  </view>
+  <view class="price">
+    <view class="new-price">{{goodInformation.newPrice}}</view>
+    <view class="old-price">{{goodInformation.oldPrice}}</view>
+    <view class="discount" wx:if="{{goodInformation.discount}}">{{goodInformation.discount}}</view>
+  </view>
+  <view class="info-other">
+    <view>{{goodInformation.columns[0]}}</view>
+    <view>{{goodInformation.columns[1]}}</view>
+    <view>{{goodInformation.services[goodInformation.services.length-1].name}}</view>
+  </view>
+  <view class="info-service">
+    <block wx:for="{{goodInformation.services.length-1}}" wx:key="index">
+      <view class="info-service-item">
+        <image src="{{goodInformation.services[item].icon}}" class="icon"></image>
+        <text class="service-text">{{goodInformation.services[item].name}}</text>
+      </view>
+    </block>
+  </view>
+</view>

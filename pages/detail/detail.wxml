@@ -1,0 +1,4 @@
+<!--pages/detail/detail.wxml-->
+<swiper list="{{swiperImages}}" class="swiper"></swiper>
+<goodinfo goodInformation="{{goodInformation}}" class="goodinfo"/>
+<shopinfo shopInformation="{{shopInformation}}"></shopinfo>

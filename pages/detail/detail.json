@@ -1,0 +1,8 @@
+{
+  "usingComponents": {
+    "swiper": "./childrenComps/swiper/swiper",
+    "goodinfo": "./childrenComps/goodinfo/goodinfo",
+    "shopinfo": "./childrenComps/shopinfo/shopinfo"
+  },
+  "navigationBarTitleText": "商品详情"
+}

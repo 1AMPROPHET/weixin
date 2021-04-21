@@ -1,1 +1,13 @@
 /* pages/home/home.wxss */
+.swiper {
+  height: 390rpx;
+}
+.height {
+  height: 390rpx;
+}
+.backtop {
+  position: fixed;
+  z-index: 999;
+  bottom: 20rpx;
+  right: 30rpx;
+}

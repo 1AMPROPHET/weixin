@@ -1,0 +1,45 @@
+/* pages/cart/childrenComps/bottom-bar/bottom-bar.wxss */
+.bottom-bar {
+  display: flex;
+  height: 80rpx;
+  line-height: 90rpx;
+  position: fixed;
+  bottom: 0;
+  background-color: #ddd;
+  width: 100%;
+}
+.bar-left {
+  width: 200rpx;
+}
+.icon-select {
+  position: fixed;
+  left: 20rpx;
+  bottom: 10rpx;
+  height: 60rpx;
+  width: 60rpx;
+}
+.icon-selected {
+  position: fixed;
+  left: 20rpx;
+  bottom: 10rpx;
+  height: 60rpx;
+  width: 60rpx;
+}
+.text {
+  position: relative;
+  left: 90rpx;
+  font-size: 30rpx;
+  color: #555;
+}
+.totalPrice {
+  width: 350rpx;
+  font-size: 34rpx;
+  color: #333;
+}
+.right-bar {
+  text-align: center;
+  flex: 1;
+  background-color: rgb(250, 61, 61);
+  font-size: 34rpx;
+  color: #fff;
+}

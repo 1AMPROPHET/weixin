@@ -1,0 +1,13 @@
+/* pages/detail/childrenComps/swiper/swiper.wxss */
+.swiper {
+  height: 750rpx;
+}
+.swiper-item {
+  width: 100%;
+  height: 750rpx;
+  overflow: hidden;
+}
+.img {
+  width: 100%;
+  height: 1125rpx;
+}

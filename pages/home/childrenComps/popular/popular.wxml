@@ -1,0 +1,4 @@
+<!--pages/home/childrenComps/popular/popular.wxml-->
+<view class="popular">
+  <image src="/assets/home/popular.jpeg" class="img"></image>
+</view>

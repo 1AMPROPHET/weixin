@@ -1,0 +1,8 @@
+/* pages/detail/detail.wxss */
+.swiper {
+  height: 750rpx;
+}
+.goodinfo {
+  height: 500rpx;
+  border-bottom: 20rpx solid #111;
+}

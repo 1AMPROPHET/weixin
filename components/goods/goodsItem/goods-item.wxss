@@ -1,0 +1,30 @@
+/* components/goods/goodsItem/goods-item.wxss */
+.title {
+  font-size: 28rpx;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.img {
+  width: 100%;
+  border-radius: 10rpx;
+}
+.desc-info {
+  margin: 14rpx 0;
+}
+.info {
+  text-align: center;
+}
+.price {
+  font-size: 28rpx;
+  color: #ff5777;
+}
+.cfav {
+  font-size: 28rpx;
+}
+.icon {
+  width: 28rpx;
+  height: 28rpx;
+  position: relative;
+  top: 4rpx;
+}

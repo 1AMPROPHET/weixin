@@ -1,0 +1,10 @@
+<!--components/goods/goodsFrame/goods-frame.wxml-->
+<view class="goods-frame">
+  <block wx:for="{{goodsList}}" wx:key="index">
+    <goods-item 
+      goodsItem="{{item}}" 
+      class="goods-item" 
+      bindtap="goodTap"
+      data-index="{{index}}"/>
+  </block>
+</view>
