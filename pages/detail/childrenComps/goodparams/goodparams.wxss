@@ -1,0 +1,35 @@
+/* pages/detail/childrenComps/goodparams/goodparams.wxss */
+.good-params {
+  padding-bottom: 30rpx;
+  border-bottom: 10rpx solid #eee;
+}
+.tr1 {
+  margin: 20rpx;
+  border-bottom: 1px solid lightgray;
+  display: flex;
+}
+.td {
+  color: #444;
+  text-align: center;
+  display: flex;
+  width: 120rpx;
+  margin: 10rpx 30rpx;
+}
+.tr2 {
+  line-height: 60rpx;
+  display: flex;
+  margin: 20rpx 20rpx;
+  padding: 0 20rpx;
+  border-bottom: 1px solid lightgray;
+}
+.title {
+  text-align: center;
+  width: 120rpx;
+  color: #ff5777;
+  font-weight: 500;
+}
+.text {
+  width: 100%;
+  justify-content: space-around;
+  text-align: center;
+}

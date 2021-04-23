@@ -1,19 +1,19 @@
-// components/goods/goodsFrame/goods-frame.js
+// pages/detail/childrenComps/recommend/recommend.js
 Component({
   properties: {
     goodsList: {
       type: Array,
       value: []
-    },
-    iid: {
-      type: String,
-      value: ''
     }
   },
   data: {
 
   },
+
+  /**
+   * 组件的方法列表
+   */
   methods: {
-    
+
   }
 })

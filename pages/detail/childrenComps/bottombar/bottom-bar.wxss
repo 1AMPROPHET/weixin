@@ -1,0 +1,40 @@
+/* pages/detail/childrenComps/bottombar/bottom-bar.wxss */
+.bottom-bar {
+  display: flex;
+  position: fixed;
+  bottom: 0;
+  background-color: #fff;
+  padding-bottom: 40rpx;
+  border-top: 1px solid #eee;
+}
+.bar-left {
+  display: flex;
+  padding-top: 10rpx;
+}
+.left-item {
+  text-align: center;
+  margin: 0 35rpx;
+}
+.icon {
+  width: 50rpx;
+  height: 50rpx;
+}
+.text {
+  font-size: 30rpx;
+}
+.bar-mid {
+  padding-top: 10rpx;
+  text-align: center;
+  width: 200rpx;
+  line-height: 100rpx;
+  background-color: rgb(231, 218, 33);
+}
+.bar-right {
+  padding-top: 10rpx;
+  color: #fff;
+  text-align: center;
+  line-height: 100rpx;
+  width: 166rpx;
+  flex: 1;
+  background-color: #ff5777;
+}

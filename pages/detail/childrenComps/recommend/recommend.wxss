@@ -1,4 +1,14 @@
-/* components/goods/goodsItem/goods-item.wxss */
+/* pages/detail/childrenComps/recommend/recommend.wxss */
+.goods-frame {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 20rpx;
+  justify-content: space-around;
+}
+.goods-item {
+  width: 48%;
+}
 .title {
   font-size: 28rpx;
   white-space: nowrap;

@@ -1,0 +1,12 @@
+<!--pages/detail/childrenComps/comment/comment.wxml-->
+<view class="comment">
+  <view class="top-area">
+    <image src="{{comment.avatar}}" class="avatar"></image>
+    <view class="username">{{comment.username}}</view>
+  </view>
+  <view class="comment-area">{{comment.comment}}</view>
+  <view class="bottom-area">
+    <view class="date">{{realDate}}</view>
+    <view class="style">{{comment.style}}</view>
+  </view>
+</view>

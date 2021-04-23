@@ -1,0 +1,37 @@
+/* pages/detail/childrenComps/comment/comment.wxss */
+.comment {
+  margin-top: 40rpx;
+  padding-bottom: 40rpx;
+  border-bottom: 10rpx solid #eee;
+}
+.top-area {
+  display: flex;
+  margin: 20rpx 20rpx;
+}
+.avatar {
+  height: 80rpx;
+  width: 80rpx;
+  border-radius: 80rpx;
+}
+.username {
+  line-height: 80rpx;
+  margin-left: 30rpx;
+}
+.comment-area {
+  margin: 0 20rpx;
+  color: #444;
+  font-size: 28rpx;
+  line-height: 1.5;
+}
+.bottom-area {
+  display: flex;
+}
+.date {
+  font-size: 28rpx;
+  color: #555;
+  margin: 0 20rpx;
+}
+.style {
+  font-size: 28rpx;
+  color: #555;
+}

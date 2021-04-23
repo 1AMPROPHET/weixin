@@ -1,4 +1,8 @@
 /* pages/detail/childrenComps/shopinfo/shopinfo.wxss */
+.shopinfo {
+  padding-bottom: 40rpx;
+  border-bottom: 14rpx solid #eee;
+}
 .logo-name {
   text-align: center;
   margin: 50rpx 20rpx 30rpx 20rpx;
@@ -17,7 +21,6 @@
 }
 .selling {
   display: flex;
-  justify-content: space-between;
 }
 .left-area {
   margin: 30rpx 20rpx;
@@ -39,6 +42,45 @@
   font-size: 36rpx;
 }
 .text {
-  font-size: 30rpx;
+  font-size: 26rpx;
   margin-top: 10rpx;
+  color: #444;
+}
+.right-area {
+  margin-left: 20rpx;
+}
+.table {
+  display: flex;
+  margin: 10rpx 0;
+}
+.table-text {
+  font-size: 26rpx;
+  color: #444;
+}
+.score {
+  font-size: 30rpx;
+  margin-left: 10rpx;
+  color: rgb(61, 170, 61);
+}
+.table-compare {
+  position: absolute;
+  right: 100rpx;
+  color: #fff;
+  background-color: rgb(61, 170, 61);
+  font-weight: 500;
+}
+.color-red {
+  color: red;
+}
+.bgc-red {
+  background-color: red;
+}
+.btn {
+  margin-top: 40rpx;
+  border-radius: 40rpx;
+  background-color: #ccc;
+  width: 400rpx;
+  height: 60rpx;
+  line-height: 60rpx;
+  font-size: 30rpx;
 }

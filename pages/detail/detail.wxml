@@ -1,4 +1,20 @@
 <!--pages/detail/detail.wxml-->
 <swiper list="{{swiperImages}}" class="swiper"></swiper>
+
 <goodinfo goodInformation="{{goodInformation}}" class="goodinfo"/>
+
 <shopinfo shopInformation="{{shopInformation}}"></shopinfo>
+
+<gooddetail detailInfo="{{detailInfo}}"></gooddetail>
+
+<backtop class="backtop" wx:if="{{isBacktopShow}}"/>
+
+<goodparams goodParams="{{goodParams}}"/>
+
+<comment comment="{{comment}}"/>
+
+<recommend goodsList="{{recommend}}"/>
+
+<view class="block"></view>
+
+<bottom-bar bind:addCart="onAddCart"/>

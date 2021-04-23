@@ -1,0 +1,14 @@
+<!--pages/detail/childrenComps/gooddetail/gooddetail.wxml-->
+<view class="good-detail">
+  <view class="info-desc">
+    <view class="start"></view>
+    <view class="desc">{{detailInfo.desc}}</view>
+    <view class="end"></view>
+  </view>
+  <view class="detail-img-key">{{detailInfo.detailImage[0].key}}</view>
+  <view class="detail-img">
+    <block wx:for="{{detailInfo.detailImage[0].list}}" wx:key="index">
+      <image src="{{item}}" mode="widthFix" class="img"></image>
+    </block>
+  </view>
+</view>

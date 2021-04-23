@@ -8,16 +8,15 @@ Component({
     totalPrice: {
       type: Number,
       value: 0
+    },
+    selectAll: {
+      type: Boolean,
+      value: true
     }
-  },
-  data: {
-    isSelect: false,
   },
   methods: {
     selectAll() {
-      this.setData({
-        isSelect: !this.data.isSelect
-      })
+      this.triggerEvent('selectAllTap')
     }
   }
 })

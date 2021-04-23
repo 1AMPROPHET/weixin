@@ -1,0 +1,17 @@
+<!--pages/cart/childrenComps/cart-item/cart-item.wxml-->
+<view class="cart-item">
+  <view class="select-bar" bindtap="select"  data-index="{{index}}">
+    <image src="/assets/common/select.png" class="icon-select"></image>
+    <image src="/assets/common/selected.png" class="icon-selected" hidden="{{!goodInfo.checked}}"></image>
+  </view>
+  <image src="{{goodInfo.imageURL}}" class="img"></image>
+  <view class="right-area">
+    <view class="title">{{goodInfo.title}}</view>
+    <view class="desc">{{goodInfo.desc}}</view>
+    <view class="right-bottom">
+      <view class="price">￥{{goodInfo.price}}</view>
+      <view class="count">x{{goodInfo.count}}</view>
+      <view class="delete" bindtap="deleteTap" data-index="{{index}}">删除</view>
+    </view>
+  </view>
+</view>

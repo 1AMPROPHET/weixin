@@ -1,5 +1,5 @@
 <!--components/goods/goodsItem/goods-item.wxml-->
-<view class="goods-item">
+<view class="goods-item" bindtap="itemClick">
   <image src="{{goodsItem.show.img}}" class="img"></image>
   <view class="desc-info">
     <view class="title">{{goodsItem.title}}</view>

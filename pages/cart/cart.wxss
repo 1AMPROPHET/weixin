@@ -1,1 +1,4 @@
 /* pages/cart/cart.wxss */
+.scroll {
+  height: calc(100vh - 80rpx);
+}

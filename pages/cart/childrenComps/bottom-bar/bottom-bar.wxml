@@ -2,7 +2,7 @@
 <view class="bottom-bar">
   <view class="bar-left" bindtap="selectAll">
     <image src="/assets/common/select.png" class="icon-select"></image>
-    <image src="/assets/common/selected.png" class="icon-selected" hidden="{{!isSelect}}"></image>
+    <image src="/assets/common/selected.png" class="icon-selected" hidden="{{!selectAll}}"></image>
     <text class="text">全选</text>
   </view>
   <view class="bar-mid">

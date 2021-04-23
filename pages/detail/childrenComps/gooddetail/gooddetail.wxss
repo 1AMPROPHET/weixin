@@ -1,0 +1,40 @@
+/* pages/detail/childrenComps/gooddetail/gooddetail.wxss */
+.good-detail {
+  margin: 30rpx 6rpx;
+  color: #333;
+  font-size: 30rpx;
+}
+.desc {
+  padding: 30rpx 0;
+}
+.start {
+  float: left;
+  position: relative;
+  background-color: #a3a3a5;
+  width: 180rpx;
+  height: 1px;
+  margin-bottom: 10rpx;
+}
+.end {
+  margin-top: 10rpx;
+  float: right;
+  position: relative;
+  width: 180rpx;
+  height: 1px;
+  background-color: #a3a3a5;
+}
+.start::before, 
+.end::after {
+  position: absolute;
+  bottom: 0;
+  width: 10rpx;
+  height: 10rpx;
+  content: "";
+  background-color: #333333;
+}
+.end::after {
+  right: 0;
+}
+.img {
+  width: 100%;
+}

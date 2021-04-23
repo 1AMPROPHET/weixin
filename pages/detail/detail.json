@@ -2,7 +2,13 @@
   "usingComponents": {
     "swiper": "./childrenComps/swiper/swiper",
     "goodinfo": "./childrenComps/goodinfo/goodinfo",
-    "shopinfo": "./childrenComps/shopinfo/shopinfo"
+    "shopinfo": "./childrenComps/shopinfo/shopinfo",
+    "gooddetail": "./childrenComps/gooddetail/gooddetail",
+    "backtop": "../../components/backtop/backtop",
+    "goodparams": "./childrenComps/goodparams/goodparams",
+    "comment": "./childrenComps/comment/comment",
+    "recommend": "./childrenComps/recommend/recommend",
+    "bottom-bar": "./childrenComps/bottombar/bottom-bar"
   },
   "navigationBarTitleText": "商品详情"
 }

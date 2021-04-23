@@ -15,5 +15,17 @@
         <view class="text">全部宝贝</view>
       </view>
     </view>
+    <view class="right-area">
+      <block wx:for="{{shopInformation.score}}" wx:key="index">
+        <view class="table">
+          <view class="table-text">{{item.name}}</view>
+          <view class="score {{item.isBetter? 'color-red' : ''}}">{{item.score}}</view>
+          <view class="table-compare {{item.isBetter? 'bgc-red' : ''}}">{{item.isBetter? '高' : '低'}}</view>
+        </view>
+      </block>
+    </view>
+  </view>
+  <view class="enter">
+    <button class="btn">进店逛逛</button>
   </view>
 </view>

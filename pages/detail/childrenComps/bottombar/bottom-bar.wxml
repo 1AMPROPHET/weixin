@@ -1,0 +1,13 @@
+<!--pages/detail/childrenComps/bottombar/bottom-bar.wxml-->
+<view class="bottom-bar">
+  <view class="bar-left">
+    <block wx:for="{{icons}}" wx:key="index">
+      <view class="left-item">
+        <image src="{{item.icon}}" class="icon"></image>
+        <view class="text">{{item.text}}</view>
+      </view>
+    </block>
+  </view>
+  <view class="bar-mid" bindtap="addToCart">加入购物车</view>
+  <view class="bar-right">购买</view>
+</view>

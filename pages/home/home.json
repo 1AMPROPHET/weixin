@@ -7,5 +7,6 @@
     "goods-frame": "/components/goods/goodsFrame/goods-frame",
     "backtop": "/components/backtop/backtop"
   },
-  "navigationBarTitleText": "购物街"
+  "navigationBarTitleText": "购物街",
+  "backgroundColor": "#eee"
 }

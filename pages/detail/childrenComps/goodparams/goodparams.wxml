@@ -1,0 +1,20 @@
+<!--pages/detail/childrenComps/goodparams/goodparams.wxml-->
+<view class="good-params">
+  <view class="size-table">
+    <block wx:for="{{goodParams.sizeTable[0]}}" wx:key="index">
+      <view class="tr1">
+        <block wx:for="{{item}}" wx:for-item="block" wx:key="indey">
+          <view class="td">{{block}}</view>
+        </block>
+      </view>
+    </block>
+  </view>
+  <view class="good-info">
+    <block wx:for="{{goodParams.infos}}" wx:key="index">
+      <view class="tr2">
+        <view class="title">{{item.key}}</view>
+        <view class="text">{{item.value}}</view>
+      </view>
+    </block>
+  </view>
+</view>

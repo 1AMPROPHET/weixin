@@ -1,0 +1,81 @@
+/* pages/cart/childrenComps/cart-item/cart-item.wxss */
+.cart-item {
+  position: relative;
+  width: 100%;
+  font-size: 0;
+  padding: 5px;
+  border-bottom: 1px solid #ccc;
+  display: flex;
+  background-color: #ddd;
+}
+.select-bar {
+  position: relative;
+  width: 60rpx;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.right-area {
+  width: 450rpx;
+}
+.icon-selected {
+  position: absolute;
+  height: 60rpx;
+  width: 60rpx;
+}
+.icon-select {
+  position: absolute;
+  height: 60rpx;
+  width: 60rpx;
+}
+.img {
+  margin: 10rpx 20rpx;
+  height: 250rpx;
+  width: 170rpx;
+  border-radius: 10rpx;
+}
+.title {
+  display: block;
+  font-size: 30rpx;
+  line-height: 60rpx;
+  width: 440rpx;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  right: 0;
+}
+.desc {
+  display: block;
+  font-size: 30rpx;
+  line-height: 60rpx;
+  width: 440rpx;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  right: 0;
+}
+.right-bottom {
+  position: relative;
+  bottom: -80rpx;
+  display: flex;
+}
+.price {
+  line-height: 40rpx;
+  font-size: 30rpx;
+  color: #ff5777;
+  line-height: 46rpx;
+}
+.count {
+  position: relative;
+  width: 80rpx;
+  right: -60rpx;
+  color: #333;
+  font-size: 34rpx;
+  line-height: 46rpx;
+}
+.delete {
+  position: relative;
+  right: -150rpx;
+  color: #333;
+  font-size: 34rpx;
+}
