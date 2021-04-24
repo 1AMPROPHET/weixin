@@ -3,6 +3,5 @@
     "bottom-bar": "./childrenComps/bottom-bar/bottom-bar",
     "cart-item": "./childrenComps/cart-item/cart-item"
   },
-  "backgroundColor": "#eee",
-  "disableScroll-X": "true"
+  "backgroundColor": "#eee"
 }

@@ -1,0 +1,17 @@
+/* pages/profile/childrenComps/functional-bar/functional-bar.wxss */
+.func-bar {
+  height: 100rpx;
+  display: flex;
+  line-height: 100rpx;
+  align-items: center;
+  border-bottom: 6rpx solid #f6f6f6;
+}
+.icon {
+  display: inline-block;
+  width: 50rpx;
+  height: 50rpx;
+  margin: 0 20rpx;
+}
+.title {
+  display: inline-block;
+}

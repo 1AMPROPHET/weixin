@@ -1,0 +1,51 @@
+/* pages/profile/childrenComps/login/login.wxss */
+.login {
+  background-color: #ff5777;
+  height: 180rpx;
+  display: flex;
+  width: 100%;
+  padding: 0 50rpx 0 50rpx;
+  align-items: center;
+}
+.login-left {
+  height: 180rpx;
+  display: flex;
+  align-items: center;
+}
+.profile-icon {
+  height: 110rpx;
+  width: 110rpx;
+  border-radius: 110rpx;
+  background-color: #fff;
+}
+.login-mid {
+  margin-left: 50rpx;
+  align-items: center;
+}
+.log-in {
+  color: #fff;
+  font-size: 36rpx;
+}
+.bind-phone {
+  display: flex;
+  align-items: center;
+  margin-top: 10rpx;
+}
+.icon-phone {
+  width: 36rpx;
+  height: 36rpx;
+}
+.tel-number {
+  color: #fff;
+}
+.login-right {
+  display: flex;
+  align-items: center;
+  position: relative;
+  left: 200rpx;
+  height: 180rpx;
+}
+.right-arrow {
+  height: 50rpx;
+  width: 50rpx;
+}

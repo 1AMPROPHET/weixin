@@ -1,0 +1,24 @@
+<!--pages/profile/childrenComps/wallet/wallet.wxml-->
+<view class="wallet">
+  <view class="block money">
+    <view class="block-top">
+      <view class="number">{{money}}</view>
+      <view> 元</view>
+    </view>
+    <view>我的余额</view>
+  </view>
+  <view class="block discount">
+    <view class="block-top">
+      <view class="number">{{discount}}</view>
+      <view> 个</view>
+    </view>
+    <view>我的优惠</view>
+  </view>
+  <view class="block points">
+    <view class="block-top">
+      <view class="number">{{points}}</view>
+      <view> 分</view>
+    </view>
+    <view>我的积分</view>
+  </view>
+</view>

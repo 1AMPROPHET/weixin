@@ -1,1 +1,4 @@
 /* pages/profile/profile.wxss */
+.vip {
+  border-bottom: 40rpx solid #f6f6f6 !important;
+}

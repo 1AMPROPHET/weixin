@@ -1,0 +1,5 @@
+<!--pages/profile/childrenComps/functional-bar/functional-bar.wxml-->
+<view class="func-bar extra-class">
+  <image src="{{functionalItem.icon}}" class="icon"></image>
+  <view class="title">{{functionalItem.title}}</view>
+</view>

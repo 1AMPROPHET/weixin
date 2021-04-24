@@ -1,2 +1,8 @@
 <!--pages/profile/profile.wxml-->
-<text>pages/profile/profile.wxml</text>
+<login/>
+<wallet/>
+<functional-bar functionalItem="{{barList[0]}}"/>
+<functional-bar functionalItem="{{barList[1]}}"/>
+<functional-bar functionalItem="{{barList[2]}}" extra-class="vip"/>
+<functional-bar functionalItem="{{barList[3]}}"/>
+<functional-bar functionalItem="{{barList[4]}}"/>

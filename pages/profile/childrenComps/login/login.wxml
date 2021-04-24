@@ -1,0 +1,16 @@
+<!--pages/profile/childrenComps/login/login.wxml-->
+<view class="login">
+  <view class="login-left">
+    <image src="/assets/profile/profile.png" class="profile-icon"></image>
+  </view>
+  <view  class="login-mid">
+    <view class="log-in">登录/注册</view>
+    <view class="bind-phone">
+      <image src="/assets/profile/Phone.png" class="icon-phone"></image>
+      <view class="tel-number">暂无绑定手机号</view>
+    </view>
+  </view>
+  <view class="login-right">
+    <image class="right-arrow" src="/assets/profile/right.png"></image>
+  </view>
+</view>

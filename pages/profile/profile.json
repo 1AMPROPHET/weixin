@@ -1,3 +1,8 @@
 {
-  "usingComponents": {}
+  "usingComponents": {
+    "login": "./childrenComps/login/login",
+    "wallet": "./childrenComps/wallet/wallet",
+    "functional-bar": "./childrenComps/functional-bar/functional-bar"
+  },
+  "navigationBarTitleText": "我的"
 }
